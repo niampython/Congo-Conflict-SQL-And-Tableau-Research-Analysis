@@ -132,7 +132,7 @@ ORDER BY COUNT(event_type) DESC
 ![image](https://github.com/user-attachments/assets/e2d8575a-26bb-4066-8d3e-ae182c88fb91)
 
 /*
-What is the Month-Over-Month percentage change for sexual assults from january 2020 to july 2020
+7. What is the Month-Over-Month percentage change for sexual assults from january 2020 to july 2020
 Display event_type, number of sexual assults each month, and month-over-month percentage change
 */
 ```sql
@@ -151,6 +151,8 @@ SELECT Month,Conflict_type,Count_of_Sexual_Assults,  Previous_Month_Count_of_Sex
 ROUND(((CAST(Count_of_Sexual_Assults AS FLOAT)-Previous_Month_Count_of_Sexual_Assults)/Previous_Month_Count_of_Sexual_Assults)*100,2) Month_Over_Month_Percentage_Change
 FROM previous_month
 ```
+![image](https://github.com/user-attachments/assets/afe5cc09-3e57-4073-99c0-a78861865826)
+
 /*
 8.   What interaction type is the most common?  How many fatalities have there been from the top interaction type in the last 10 months?
 */
