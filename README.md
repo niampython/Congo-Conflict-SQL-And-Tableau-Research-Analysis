@@ -100,6 +100,8 @@ FROM [70-461].[dbo].[Congo conflict data]
 WHERE event_type = 'Protests'
 group by event_type
 ```
+![image](https://github.com/user-attachments/assets/e7c90074-4ba6-461e-ac77-7f7abfdb193c)
+
 /*
 6.	What group have had the most involvement in sexual assault cases against civilian women between the year 2016-2020.
 Rank the location from the locations with the most sexual assaults to the location with the least.
