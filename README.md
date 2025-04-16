@@ -257,6 +257,7 @@ GROUP BY CASE WHEN interaction =10 THEN ' State forces only'
  FROM Ranking
  WHERE Ranking <=10
 ```
+![image](https://github.com/user-attachments/assets/55493a6a-c7fe-4be2-9b81-96cbf6fecb78)
 
  /*
  9.	 What is the running total of number of fatalities for each month for each event type within the last 6 months of 2020.
