@@ -273,6 +273,7 @@ GROUP BY event_type, DATENAME(MONTH,event_date), month(event_date))
 SELECT Conflict_Type, month_name, Num_of_Fatalities,SUM(Num_of_Fatalities) OVER(PARTITION BY Conflict_Type ORDER BY month ) as Running_Total
 FROM months
 ```
+![image](https://github.com/user-attachments/assets/0fa7114d-8521-4ab2-be0d-e00044615605)
 
 ## **Learning Outcomes**
 
