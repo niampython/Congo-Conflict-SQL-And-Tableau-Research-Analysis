@@ -83,6 +83,8 @@ Display the text with the combine columns and the notes from each event.  If one
 SELECT CONCAT(COALESCE(actor1,'Only One Party'),' ','VS',' ', COALESCE(actor2,'Only One Party') ) as Participants, notes
 FROM [70-461].[dbo].[Congo conflict data]
 ```
+![image](https://github.com/user-attachments/assets/40bfbc89-3255-49f9-916c-b7d8e4799559)
+
 /*
 5.	What is the percentage of protest that ends with a fatality.  Out of all protests, what is the likelihood that it will end with at least one fatality.
 Display the percentage and the text behind the percentage saying “ of Protest Will End In A Fatality”
