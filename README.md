@@ -72,7 +72,7 @@ SUM(fatalities)
 FOR year IN( [2015], [2016], [2017], [2018], [2019], [2020])
 ) B
 ```
-![image](https://github.com/user-attachments/assets/4067f62c-58ba-4f5f-a965-17f4824c357d)
+![image](https://github.com/user-attachments/assets/9180c1eb-13f5-40b5-a0f4-77ed6d179750)
 
 /*
 4.	Combine both actor1 and actor2 together with the word “VS” in the middle.  
