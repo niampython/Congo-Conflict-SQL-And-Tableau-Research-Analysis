@@ -129,6 +129,8 @@ WHEN inter1 = 1 OR inter2 = 1 THEN 'State Forces'
 		END
 ORDER BY COUNT(event_type) DESC
 ```
+![image](https://github.com/user-attachments/assets/e2d8575a-26bb-4066-8d3e-ae182c88fb91)
+
 /*
 What is the Month-Over-Month percentage change for sexual assults from january 2020 to july 2020
 Display event_type, number of sexual assults each month, and month-over-month percentage change
