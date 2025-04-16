@@ -33,7 +33,7 @@ SELECT location,event_date,num_of_fatalities
 FROM Ranking
 WHERE fatalities_ranking <=5
 ```
-![image](https://github.com/user-attachments/assets/dc3daddd-9fed-469e-bb28-4b2fe720f629)
+![image](https://github.com/user-attachments/assets/2f3c216c-9373-4a5e-a050-0524310316c3)
 
 /*2.    How many conflict events involved the FARDC, how many fatalities are also associated with the FARDC within the last 10 years from 2020.
 Display event type, number of fataliites from that event type,  number of conflicts, overrall fatalities from all conflicts involving FARDC,
